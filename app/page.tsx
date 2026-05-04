@@ -22,7 +22,7 @@ const features = [
     icon: Pencil,
     title: "Custom Aliases",
     description:
-      "Replace random characters with a memorable word or phrase so your links are easy to recognise and share.",
+      "Replace random characters with a memorable word or phrase so your links are easy to recognize and share.",
   },
 ];
 
