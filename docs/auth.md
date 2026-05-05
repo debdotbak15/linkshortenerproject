@@ -3,9 +3,9 @@
 ## Rules
 
 - **Clerk is the only auth method.** Never implement custom auth, NextAuth, or any other auth library.
-- `<ClerkProvider>` wraps the app in `app/layout.tsx` with the shadcn theme applied.
+- `<ClerkProvider>` wraps the app in `app/layout.tsx`.
 - Route protection is enforced via `proxy.ts` using `clerkMiddleware` from `@clerk/nextjs/server`.
-- **Theme:** The `shadcn` theme from `@clerk/themes` is applied to all Clerk UI components via the `appearance` prop on `<ClerkProvider>`.
+- **Clerk UI components must use the shadcn theme** to match the application's design system.
 
 ## Protected Routes
 
